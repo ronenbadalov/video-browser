@@ -1,5 +1,3 @@
-import { SelectChangeEvent } from "@mui/material";
-import React from "react";
 import { Genre } from "../../models/general.models";
 import Input from "../Input/Input";
 import MultiChoice from "../MultiChoice/MultiChoice";

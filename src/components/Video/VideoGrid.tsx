@@ -1,4 +1,3 @@
-import React from "react";
 import { VideoObj } from "../../models/general.models";
 import Video from "./Video";
 import classes from "./VideoGrid.module.scss";
