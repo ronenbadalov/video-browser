@@ -1,0 +1,10 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+}
+@media (max-width: 740px) {
+  .searchbar {
+    flex-direction: column;
+  }
+}

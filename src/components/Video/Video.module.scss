@@ -1,0 +1,15 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+  }
+  .video-info {
+    background-color: #f5f5dc;
+    padding: 0.3rem;
+    p {
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
