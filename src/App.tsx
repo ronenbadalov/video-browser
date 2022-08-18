@@ -37,7 +37,7 @@ const App = () => {
 
   let filteredVideos = useMemo(
     () => filterVideos(videosData, filterState),
-    [filterState, videosData, filterVideos]
+    [filterState, videosData]
   );
 
   let isOk = useMemo(
