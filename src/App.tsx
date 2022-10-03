@@ -13,6 +13,7 @@ import notFoundAnimation from "./assets/notFound.json";
 import errorAnimation from "./assets/error.json";
 
 const App = () => {
+  console.log("added new feature");
   const [videosData, setVideosData] = useState<VideoObj[]>([]);
   const [genresData, setGenres] = useState([]);
   const [yearOptions, setYearOptions] = useState<number[]>([]);
