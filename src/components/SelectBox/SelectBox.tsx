@@ -13,6 +13,7 @@ const SelectBox = (props: Props) => {
   const selectedYear = useSelector(
     (state: RootState) => state.filterState.year
   );
+
   const handleYearChange = (event: SelectChangeEvent) => {
     dispatch(filterActions.setYear(`${event.target.value}`));
   };
