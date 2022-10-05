@@ -8,7 +8,6 @@ import { RootState } from "../../store";
 type Props = {
   options: number[];
 };
-
 const SelectBox = (props: Props) => {
   const dispatch = useDispatch();
   const selectedYear = useSelector(
